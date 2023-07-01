@@ -21,8 +21,8 @@ export default function Home() {
           <Name>Aderbal Cavalcante</Name>
           <Function>FullStack Developer</Function>
           <Intro>
-            Graduando em Engenharia da Computação, tenho experiência em
-            desenvolvimento Web (Angular, Laravel, JS, PHP, PostgreSQL, MySql
+            Graduando em Engenharia da Computação, <br/> tenho experiência em
+            desenvolvimento <br/> Web (Angular, Laravel, JS, PHP, PostgreSQL, <br/>MySql
             criação de páginas/sites Wordpress etc.)
           </Intro>
           <LogosContainer>
@@ -32,7 +32,6 @@ export default function Home() {
             <Img src="/images/laravel.png" alt="Laravel" />
             <Img src="/images/postgres.png" alt="PostgreSQL" />
             <Img src="/images/mongodb.png" alt="PostgreSQL" />
-            <Img src="/images/mysql.png" alt="MySQL" />
           </LogosContainer>
           <Link href="projects" passHref>
             <LinkProjects>

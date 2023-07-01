@@ -1,15 +1,15 @@
-import React from 'react'
-import { Item, Icon, Text } from './style'
+import React from "react";
+import { Item, Icon, Text, A } from "./style";
 
-export default function ItemContact({ IconFa, LinkContact }) {
+export default function ItemContact({ IconFa, LinkContact, Nome }) {
   return (
     <Item>
-      <Icon>
-        <IconFa />
-      </Icon>
-      <Text>
-        {LinkContact}
-      </Text>
+      <A href={LinkContact} target="_blank" rel="noopener noreferrer">
+        <Icon>
+          <IconFa />
+        </Icon>
+        <Text>{Nome}</Text>
+      </A>
     </Item>
-  )
+  );
 }
