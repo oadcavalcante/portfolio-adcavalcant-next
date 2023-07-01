@@ -96,3 +96,14 @@ export const Logo = styled.div`
 `;
 
 export const Img = styled.img``
+
+export const LogosContainer = styled.div `
+  display: flex;
+  flex-direction: row;
+
+  Img {
+    width: 3rem;
+    heigth: 3rem;
+    margin: 0.3rem;
+  }
+`

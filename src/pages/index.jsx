@@ -9,6 +9,7 @@ import {
   LinkProjects,
   Logo,
   Img,
+  LogosContainer,
 } from "../../styles/indexStyle";
 import Link from "next/link";
 
@@ -24,6 +25,15 @@ export default function Home() {
             desenvolvimento Web (Angular, Laravel, JS, PHP, PostgreSQL, MySql
             criação de páginas/sites Wordpress etc.)
           </Intro>
+          <LogosContainer>
+            <Img src="/images/js.png" alt="JavaScript" />
+            <Img src="/images/php.png" alt="PHP" />
+            <Img src="/images/angular.png" alt="Angular" />
+            <Img src="/images/laravel.png" alt="Laravel" />
+            <Img src="/images/postgres.png" alt="PostgreSQL" />
+            <Img src="/images/mongodb.png" alt="PostgreSQL" />
+            <Img src="/images/mysql.png" alt="MySQL" />
+          </LogosContainer>
           <Link href="projects" passHref>
             <LinkProjects>
               PROJETOS <FaArrowRight />
