@@ -29,7 +29,7 @@ export default function Header() {
       <Content>
         <ContentTitle>
           <Title>Aderbal Cavalcante</Title>
-          <SubTitle>Portfolio Pessoal</SubTitle>
+          <SubTitle>Portfólio Pessoal</SubTitle>
         </ContentTitle>
         <Menu>
           <FaBars onClick={showSiderbar} />

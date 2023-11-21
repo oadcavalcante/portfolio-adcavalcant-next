@@ -1,17 +1,18 @@
-import '../../styles/globals.css'
-import Head from 'next/head'
-import Header from '../../components/Header'
+import "../../styles/globals.css";
+import Head from "next/head";
+import Header from "../../components/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
         <title>adcavalcant | Dev</title>
-       </Head>
-       <Header />
+        <link rel="icon" href="/images/avatar.png" />
+      </Head>
+      <Header />
       <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
