@@ -59,6 +59,10 @@ export const Url = styled.a`
   text-decoration: none;
   background-color: transparent;
   border-bottom: none;
+  import styled from 'styled-components';
+  &:hover {
+    color: navy; 
+  }
 `;
 
 export const Created_at = styled.span``;
