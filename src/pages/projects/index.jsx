@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { StyledLink } from "../../styles/index";
 import {
   Container,
   Content,
   Ul,
   Li,
   TitleProject,
+  Url,
   Created_at,
 } from "../../styles/projects/style";
 
@@ -39,15 +39,13 @@ export default function Projects() {
           {itemsApi.map((item) => (
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
-              <Url>
-                URL: &nbsp;
-                <StyledLink
-                  href={item.html_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {item.html_url}
-                </StyledLink>
+              URL: &nbsp;
+              <Url
+                href={item.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {item.html_url}
               </Url>
               <Created_at>
                 Data Criação:{" "}
