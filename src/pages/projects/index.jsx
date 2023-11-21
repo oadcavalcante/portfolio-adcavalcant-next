@@ -40,7 +40,7 @@ export default function Projects() {
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Url>
-                URL:
+                URL: &nbsp;
                 <a
                   href={item.html_url}
                   target="_blank"

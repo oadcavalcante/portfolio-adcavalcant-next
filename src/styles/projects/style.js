@@ -27,12 +27,12 @@ export const Ul = styled.ul`
   &::-webkit-scrollbar {
     width: 12px;
     border-radius: 10px;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
   }
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: darkgray; 
+    background-color: darkgray;
   }
 `;
 
@@ -48,12 +48,17 @@ export const Li = styled.li`
   padding: 10px;
 
   @media (max-width: 760px) {
-   font-size: 13px;
+    font-size: 13px;
   }
 `;
 
 export const TitleProject = styled.strong``;
 
-export const Url = styled.span``;
+export const Url = styled.a`
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: none;
+`;
 
 export const Created_at = styled.span``;
