@@ -39,7 +39,12 @@ export default function Projects() {
           {itemsApi.map((item) => (
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
-              <Url>URL: {item.html_url}</Url>
+              <Url>
+                URL:
+                <a href={item.html_url} target="_blank">
+                  {item.html_url}
+                </a>
+              </Url>
               <Created_at>
                 Data Criação:{" "}
                 {Intl.DateTimeFormat("pt-BR").format(new Date(item.created_at))}
