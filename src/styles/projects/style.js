@@ -54,7 +54,7 @@ export const Li = styled.li`
 
 export const TitleProject = styled.strong``;
 
-export const Url = styled.a`
+export const StyledLink = styled.a`
   color: white;
   text-decoration: none;
   background-color: transparent;

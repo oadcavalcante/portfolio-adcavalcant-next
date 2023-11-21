@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { StyledLink } from "../../styles/index";
 import {
   Container,
   Content,
   Ul,
-  Url,
   Li,
   TitleProject,
-  Url,
   Created_at,
 } from "../../styles/projects/style";
 
@@ -42,13 +41,13 @@ export default function Projects() {
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Url>
                 URL: &nbsp;
-                <a
+                <StyledLink
                   href={item.html_url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {item.html_url}
-                </a>
+                </StyledLink>
               </Url>
               <Created_at>
                 Data Criação:{" "}
