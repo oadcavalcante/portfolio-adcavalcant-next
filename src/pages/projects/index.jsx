@@ -41,7 +41,11 @@ export default function Projects() {
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Url>
                 URL:
-                <a href={item.html_url} target="_blank">
+                <a
+                  href={item.html_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {item.html_url}
                 </a>
               </Url>
