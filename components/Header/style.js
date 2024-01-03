@@ -1,7 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,17 +23,21 @@ export const NavLinks = styled.nav`
   display: flex;
   gap: 20px;
 
+  @media (max-width: 830px) {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
   @media (max-width: 560px) {
     flex-direction: column;
-    background-color: #2C51D6;
+    background-color: #2c51d6;
     position: fixed;
     height: 100%;
-
     gap: 0px;
     top: 0px;
     right: 0px;
     width: 60%;
-    right: ${props => props.sidebar ? '0' : '-100%'};
+    right: ${(props) => (props.sidebar ? "0" : "-100%")};
     transition: 0.5s;
 
     a {
@@ -68,7 +71,7 @@ export const Menu = styled.div`
   font-size: 30px;
   display: none;
   cursor: pointer;
-  
+
   @media (max-width: 560px) {
     display: flex;
   }
@@ -81,7 +84,7 @@ export const CloseSidebar = styled.div`
   position: absolute;
   display: none;
   cursor: pointer;
-  
+
   @media (max-width: 560px) {
     display: flex;
   }

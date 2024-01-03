@@ -18,7 +18,7 @@ export const Content = styled.div`
   @media (max-width: 600px) {
     padding: 5px;
   }
-  
+
   @media (max-width: 760px) {
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -52,6 +52,7 @@ export const Function = styled.span`
 export const Intro = styled.span`
   color: lightgray;
   text-align: justify;
+  margin-bottom: 15px;
 
   @media (max-width: 760px) {
     font-size: 15px;
@@ -72,32 +73,30 @@ export const LinkProjects = styled.button`
 `;
 
 export const Logo = styled.div`
-  width: 50%;
+  width: 100%;
+  max-width: 25rem; /* Defina o tamanho máximo desejado para a imagem */
   display: flex;
   align-items: center;
   justify-content: center;
 
   img {
-    width: 25rem;
-    height: 25rem;
-  }
+    width: 100%;
+    height: auto; /* Manter a proporção da imagem */
+    max-width: 100%; /* Garantir que a imagem não ultrapasse o contêiner */
 
-  @media (max-width: 760px) {
-    width: 90%;
-  }
+    @media (max-width: 768px) {
+      max-width: 20rem;
+    }
 
-  @media (max-width: 600px) {
-
-    img {
-      width: 18rem;
-      height: 18rem;
+    @media (max-width: 600px) {
+      max-width: 15rem;
     }
   }
 `;
 
-export const Img = styled.img``
+export const Img = styled.img``;
 
-export const LogosContainer = styled.div `
+export const LogosContainer = styled.div`
   display: flex;
   flex-direction: row;
 
@@ -106,4 +105,4 @@ export const LogosContainer = styled.div `
     heigth: 3rem;
     margin: 0.3rem;
   }
-`
+`;

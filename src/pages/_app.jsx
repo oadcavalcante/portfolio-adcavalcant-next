@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>adcavalcant | Dev</title>
+        <title>@oadcavalcante | Dev</title>
         <link rel="icon" href="/images/avatar.png" />
       </Head>
       <Header />

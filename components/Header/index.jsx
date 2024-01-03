@@ -28,7 +28,7 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>Aderbal Cavalcante</Title>
+          <Title>Aderbal Cavalcante de O. Neto</Title>
           <SubTitle>Portfólio Pessoal</SubTitle>
         </ContentTitle>
         <Menu>
