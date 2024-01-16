@@ -102,7 +102,7 @@ export const LogosContainer = styled.div`
 
   Img {
     width: 3rem;
-    heigth: 3rem;
+    height: 3rem;
     margin: 0.3rem;
   }
 `;

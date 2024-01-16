@@ -59,9 +59,8 @@ export const Url = styled.a`
   text-decoration: none;
   background-color: transparent;
   border-bottom: none;
-  import styled from 'styled-components';
   &:hover {
-    color: navy; 
+    color: navy;
   }
 `;
 

@@ -21,11 +21,10 @@ export default function Home() {
           <Name>Aderbal Cavalcante</Name>
           <Function>FullStack Developer</Function>
           <Intro>
-            Acadêmico de <b>Engenharia da Computação</b> em busca de desafios empolgantes e oportunidades de
-            crescimento. Atualmente, atuo como <b>Desenvolvedor FullStack</b> , com habilidades consolidadas no
-            desenvolvimento web e uma paixão por criar soluções inovadoras e funcionais. Tenho experiência em
-            desenvolvimento <br/> Web (Angular, Laravel, JS, PHP, PostgreSQL, <br/>MySql
-            criação de páginas/sites Wordpress e outros.)
+            Atualmente, atuo como <b>Desenvolvedor FullStack</b>, com habilidades consolidadas no desenvolvimento web e
+            uma paixão por criar soluções inovadoras e funcionais. Tenho experiência em desenvolvimento <br /> Web
+            (Angular, Laravel, JS, PHP, PostgreSQL, <br />
+            MySql criação de páginas/sites Wordpress e outros.)
           </Intro>
           <LogosContainer>
             <Img src="/images/js.png" alt="JavaScript" />

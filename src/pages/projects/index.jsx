@@ -1,13 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Container,
-  Content,
-  Ul,
-  Li,
-  TitleProject,
-  Url,
-  Created_at,
-} from "../../styles/projects/style";
+import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from "../../styles/projects/style";
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([]);
@@ -16,7 +8,7 @@ export default function Projects() {
     let abortController = new AbortController();
 
     function getGitHubAPI() {
-      fetch("https://api.github.com/users/adcavalcant/repos")
+      fetch("https://api.github.com/users/oadcavalcante/repos")
         .then(async (res) => {
           if (!res.ok) {
             throw new Error(res.status);
@@ -40,17 +32,10 @@ export default function Projects() {
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               URL: &nbsp;
-              <Url
-                href={item.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Url href={item.html_url} target="_blank" rel="noopener noreferrer">
                 {item.html_url}
               </Url>
-              <Created_at>
-                Data Criação:{" "}
-                {Intl.DateTimeFormat("pt-BR").format(new Date(item.created_at))}
-              </Created_at>
+              <Created_at>Data Criação: {Intl.DateTimeFormat("pt-BR").format(new Date(item.created_at))}</Created_at>
             </Li>
           ))}
         </Ul>
