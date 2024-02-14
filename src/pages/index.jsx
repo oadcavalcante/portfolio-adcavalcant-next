@@ -34,7 +34,7 @@ export default function Home() {
             <Img src="/images/postgres.png" alt="PostgreSQL" />
             <Img src="/images/mongodb.png" alt="PostgreSQL" />
           </LogosContainer>
-          <Link href="projects" passHref>
+          <Link href="/projects" passHref>
             <LinkProjects>
               PROJETOS <FaArrowRight />
             </LinkProjects>

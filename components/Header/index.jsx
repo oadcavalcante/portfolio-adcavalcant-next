@@ -1,15 +1,5 @@
 import React, { useState } from "react";
-import {
-  Container,
-  Title,
-  NavLinks,
-  Ancora,
-  Content,
-  Menu,
-  CloseSidebar,
-  ContentTitle,
-  SubTitle,
-} from "./style";
+import { Container, Title, NavLinks, Ancora, Content, Menu, CloseSidebar, ContentTitle, SubTitle } from "./style";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -43,13 +33,13 @@ export default function Header() {
               Home
             </Ancora>
           </Link>
-          <Link href="projects" passHref>
-            <Ancora className={activeLink("projects")} onClick={showSiderbar}>
+          <Link href="/projects" passHref>
+            <Ancora className={activeLink("/projects")} onClick={showSiderbar}>
               Projetos
             </Ancora>
           </Link>
-          <Link href="contact" passHref>
-            <Ancora className={activeLink("contact")} onClick={showSiderbar}>
+          <Link href="/contact" passHref>
+            <Ancora className={activeLink("/contact")} onClick={showSiderbar}>
               Contato
             </Ancora>
           </Link>

@@ -4,22 +4,17 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 350px);
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #0077ff, #66ccff);
 `;
 
 export const Content = styled.div`
   width: 80%;
-  max-width: 100%;
-  height: 100%;
+  max-width: 2000px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
-
-  @media (max-width: 600px) {
-    flex-direction: column;
-    align-items: center;
-  }
+  justify-content: center;
+  gap: 20px;
 `;
 
 export const ContactItem = styled.a`
@@ -29,22 +24,28 @@ export const ContactItem = styled.a`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 30px;
-  border: 2px solid white;
-  border-radius: 80px;
-  margin: 8px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #333;
   transition: background-color 0.5s, transform 0.2s;
+  cursor: pointer;
 
   &:hover {
-    background-color: black;
-    transform: scale(1.05);
+    background-color: #555;
+    transform: translateY(-5px);
   }
 
   svg {
     font-size: 24px;
+    color: white;
   }
 
-  @media (max-width: 600px) {
-    width: 100%;
+  @media (max-width: 768px) {
+    width: calc(50% - 20px);
+  }
+
+  @media (max-width: 480px) {
+    width: calc(100% - 20px);
   }
 `;
