@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>@oadcavalcante | Dev</title>
-        <link rel="icon" href="/images/avatar.png" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header />
       <Component {...pageProps} />

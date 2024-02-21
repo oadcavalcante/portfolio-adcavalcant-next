@@ -74,15 +74,16 @@ export const LinkProjects = styled.button`
 
 export const Logo = styled.div`
   width: 100%;
-  max-width: 25rem; /* Defina o tamanho máximo desejado para a imagem */
+  max-width: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   img {
+    border-radius: 100%;
     width: 100%;
-    height: auto; /* Manter a proporção da imagem */
-    max-width: 100%; /* Garantir que a imagem não ultrapasse o contêiner */
+    height: auto;
+    max-width: 90%;
 
     @media (max-width: 768px) {
       max-width: 20rem;
