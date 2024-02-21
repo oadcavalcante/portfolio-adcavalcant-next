@@ -34,12 +34,12 @@ export default function Header() {
             </Ancora>
           </Link>
           <Link href="/projects" passHref>
-            <Ancora className={activeLink("/projects")} onClick={showSiderbar}>
+            <Ancora className={activeLink("projects")} onClick={showSiderbar}>
               Projetos
             </Ancora>
           </Link>
           <Link href="/contact" passHref>
-            <Ancora className={activeLink("/contact")} onClick={showSiderbar}>
+            <Ancora className={activeLink("contact")} onClick={showSiderbar}>
               Contato
             </Ancora>
           </Link>

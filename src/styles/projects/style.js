@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+const primaryColor = "#032030";
+const secondaryColor = "#022b42";
+const tertiaryColor = "#003554";
+const quaternaryColor = "#004d74";
+const quinaryColor = "#006494";
+const senaryColor = "#006da4";
+
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -8,16 +15,10 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 1120px;
   height: 100%;
   justify-content: center;
   display: flex;
   align-items: center;
-  padding: 20px;
-
-  @media (max-width: 600px) {
-    padding: 5px;
-  }
 `;
 
 export const Ul = styled.ul`
@@ -27,41 +28,50 @@ export const Ul = styled.ul`
   &::-webkit-scrollbar {
     width: 12px;
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: #c7dcff;
   }
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: darkgray;
+    background-color: ${primaryColor};
   }
 `;
 
 export const Li = styled.li`
   display: flex;
+  background-color: #c7dcff;
   flex-direction: column;
   text-align: start;
   word-break: break-word;
-  margin: 10px 10px 20px;
-  box-shadow: 1px 1px 1px 2px gray;
-  gap: 5px;
+  margin: 10px;
+  padding: 16px;
   border-radius: 10px;
-  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
   @media (max-width: 760px) {
     font-size: 13px;
   }
 `;
 
-export const TitleProject = styled.strong``;
+export const TitleProject = styled.strong`
+  color: ${primaryColor};
+`;
 
 export const Url = styled.a`
-  color: white;
+  color: ${quinaryColor};
   text-decoration: none;
   background-color: transparent;
   border-bottom: none;
   &:hover {
-    color: navy;
+    color: ${tertiaryColor};
   }
 `;
 
-export const Created_at = styled.span``;
+export const Created_at = styled.span`
+  color: ${secondaryColor};
+`;

@@ -31,7 +31,6 @@ export default function Projects() {
           {itemsApi.map((item) => (
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
-              URL: &nbsp;
               <Url href={item.html_url} target="_blank" rel="noopener noreferrer">
                 {item.html_url}
               </Url>

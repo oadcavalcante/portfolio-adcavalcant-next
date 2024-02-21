@@ -2,19 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-image: linear-gradient(to bottom right, #0077ff, #66ccff);
+  height: 80vh;
 `;
 
 export const Content = styled.div`
-  width: 80%;
-  max-width: 2000px;
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 `;
 
 export const ContactItem = styled.a`
@@ -39,13 +38,5 @@ export const ContactItem = styled.a`
   svg {
     font-size: 24px;
     color: white;
-  }
-
-  @media (max-width: 768px) {
-    width: calc(50% - 20px);
-  }
-
-  @media (max-width: 480px) {
-    width: calc(100% - 20px);
   }
 `;
