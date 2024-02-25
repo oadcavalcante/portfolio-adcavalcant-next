@@ -39,7 +39,7 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
   display: flex;
-  background-color: #c7dcff;
+  background-color: #fff;
   flex-direction: column;
   text-align: start;
   word-break: break-word;
