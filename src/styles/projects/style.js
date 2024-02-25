@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
-const primaryColor = "#032030";
 const secondaryColor = "#022b42";
 const tertiaryColor = "#003554";
-const quaternaryColor = "#004d74";
-const quinaryColor = "#006494";
-const senaryColor = "#006da4";
+const orange = "#FC6736";
+const darkBlue = "#0C2D57";
+const lightBlue = "#006494";
+const pink = "#FFB0B0";
+const white = "#EFECEC";
 
 export const Container = styled.div`
   display: flex;
@@ -33,7 +34,7 @@ export const Ul = styled.ul`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: ${primaryColor};
+    background-color: ${darkBlue};
   }
 `;
 
@@ -41,6 +42,7 @@ export const Li = styled.li`
   display: flex;
   background-color: #fff;
   flex-direction: column;
+  align-items: center;
   text-align: start;
   word-break: break-word;
   margin: 10px;
@@ -59,11 +61,11 @@ export const Li = styled.li`
 `;
 
 export const TitleProject = styled.strong`
-  color: ${primaryColor};
+  color: ${darkBlue};
 `;
 
 export const Url = styled.a`
-  color: ${quinaryColor};
+  color: ${orange};
   text-decoration: none;
   background-color: transparent;
   border-bottom: none;
@@ -73,5 +75,6 @@ export const Url = styled.a`
 `;
 
 export const Created_at = styled.span`
-  color: ${secondaryColor};
+  color: ${lightBlue};
+  font-size: 0.8rem;
 `;

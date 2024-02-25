@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: linear-gradient(to right, #001F3F, #39CCCC);
+  background: linear-gradient(to right, #0c2d57, #fc6736);
   color: white;
   text-align: -webkit-center;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
