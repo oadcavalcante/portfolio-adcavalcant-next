@@ -13,6 +13,9 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  @media (max-width: 767px) {
+    margin: 20px 5px 20px 5px;
+  }
 `;
 
 export const Title = styled.div`
@@ -31,7 +34,7 @@ export const NavLinks = styled.nav`
   @media (max-width: 560px) {
     flex-direction: column;
     background-color: #001f3f;
-    background: linear-gradient(to right, #001f3f, #39cccc);
+    background: linear-gradient(to right, #0c2d57, #fc6736);
 
     position: fixed;
     height: 100%;

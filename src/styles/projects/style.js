@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-const secondaryColor = "#022b42";
 const tertiaryColor = "#003554";
 const orange = "#FC6736";
 const darkBlue = "#0C2D57";

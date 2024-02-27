@@ -81,10 +81,14 @@ export const Logo = styled.div`
 
   img {
     border-radius: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     width: 100%;
     height: auto;
     max-width: 90%;
 
+    @media (max-height: 768px) and (max-width: 375px) {
+      width: 14rem;
+    }
     @media (max-width: 768px) {
       max-width: 20rem;
     }
