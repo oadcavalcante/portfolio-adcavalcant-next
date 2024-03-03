@@ -66,6 +66,22 @@ export const LinkProjects = styled.button`
   justify-content: space-around;
   margin-top: 20px;
   font-weight: bold;
+  background-color: #e53935;
+  color: white;
+
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  &:focus {
+    border: 2px solid #ff5e62;
+  }
+
+  &:active {
+    border: 1px solid #ff5e62;
+    transform: translateY(2px);
+  }
 
   svg {
     font-size: 20px;

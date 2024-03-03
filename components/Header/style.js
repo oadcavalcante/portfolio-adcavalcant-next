@@ -62,7 +62,7 @@ export const Ancora = styled.a`
   color: white;
 
   &.active {
-    background-color: black;
+    background-color: #333;
   }
 
   @media (min-width: 560px) {

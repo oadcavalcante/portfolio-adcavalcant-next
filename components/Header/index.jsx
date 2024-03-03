@@ -18,7 +18,7 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>Aderbal Cavalcante</Title>
+          <Title>@oadcavalcante</Title>
           <SubTitle>Portfólio Pessoal</SubTitle>
         </ContentTitle>
         <Menu>

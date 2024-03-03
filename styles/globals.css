@@ -11,6 +11,9 @@ body {
   background: linear-gradient(to right, #0c2d57, #fc6736);
   color: white;
   text-align: -webkit-center;
+  height: 100vh;
+  margin: 0;
+  overflow-y: hidden;
 }
 
 a,
