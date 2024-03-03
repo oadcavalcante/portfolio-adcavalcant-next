@@ -65,6 +65,7 @@ export const LinkProjects = styled.button`
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  margin-bottom: 30px;
   font-weight: bold;
   background-color: #e53935;
   color: white;
@@ -103,7 +104,7 @@ export const Logo = styled.div`
     max-width: 90%;
 
     @media (max-height: 768px) and (max-width: 375px) {
-      width: 9rem;
+      width: 8rem;
     }
     @media (max-width: 768px) {
       max-width: 20rem;
