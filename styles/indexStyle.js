@@ -103,14 +103,14 @@ export const Logo = styled.div`
     max-width: 90%;
 
     @media (max-height: 768px) and (max-width: 375px) {
-      width: 14rem;
+      width: 9rem;
     }
     @media (max-width: 768px) {
       max-width: 20rem;
     }
 
     @media (max-width: 600px) {
-      max-width: 15rem;
+      max-width: 12rem;
     }
   }
 `;
