@@ -1,11 +1,19 @@
 import styled from "styled-components";
 
-const tertiaryColor = "#003554";
-const orange = "#FC6736";
-const darkBlue = "#0C2D57";
-const lightBlue = "#006494";
-const pink = "#FFB0B0";
-const white = "#EFECEC";
+//Este tom é um azul muito escuro, quase preto, frequentemente associado à cor do céu noturno.
+export const midnightBlue = "#13293D";
+
+//É um azul intenso, vibrante, que lembra o azul profundo do céu.
+export const deepSkyBlue = "#006494";
+
+//Um azul médio, frequentemente usado para representar a cor da água ou do céu.
+export const seagullBlue = "#247BA0";
+
+//Um azul claro brilhante, que pode ser comparado ao azul celeste ou ao azul-ciano.
+export const vibrantLightBlue = "#1B98E0";
+
+//Um tom muito claro de azul, quase branco, que lembra a cor do gelo ou da neve sob luz difusa.
+export const iceBlue = "#E8F1F2";
 
 export const Container = styled.div`
   display: flex;
@@ -33,7 +41,7 @@ export const Ul = styled.ul`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: ${darkBlue};
+    background-color: ${midnightBlue};
   }
 `;
 
@@ -60,20 +68,20 @@ export const Li = styled.li`
 `;
 
 export const TitleProject = styled.strong`
-  color: ${darkBlue};
+  color: ${midnightBlue};
 `;
 
 export const Url = styled.a`
-  color: ${orange};
+  color: ${vibrantLightBlue};
   text-decoration: none;
   background-color: transparent;
   border-bottom: none;
   &:hover {
-    color: ${tertiaryColor};
+    color: ${seagullBlue};
   }
 `;
 
 export const Created_at = styled.span`
-  color: ${lightBlue};
+  color: ${deepSkyBlue};
   font-size: 0.8rem;
 `;

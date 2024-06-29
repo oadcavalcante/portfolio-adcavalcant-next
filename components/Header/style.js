@@ -34,7 +34,7 @@ export const NavLinks = styled.nav`
   @media (max-width: 560px) {
     flex-direction: column;
     background-color: #001f3f;
-    background: linear-gradient(to right, #0c2d57, #fc6736);
+    background: linear-gradient(to right, #0c2d57, #1b98e0);
 
     position: fixed;
     height: 100%;

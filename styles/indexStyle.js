@@ -67,7 +67,7 @@ export const LinkProjects = styled.button`
   margin-top: 20px;
   margin-bottom: 30px;
   font-weight: bold;
-  background-color: #e53935;
+  background-color: #1b98e0;
   color: white;
 
   transition: box-shadow 0.3s ease;
