@@ -19,7 +19,7 @@ export default function Header() {
       <Content>
         <ContentTitle>
           <Title>@oadcavalcante</Title>
-          <SubTitle>Portfólio Pessoal</SubTitle>
+          {/* <SubTitle>Portfólio Pessoal</SubTitle> */}
         </ContentTitle>
         <Menu>
           <FaBars onClick={showSiderbar} />
